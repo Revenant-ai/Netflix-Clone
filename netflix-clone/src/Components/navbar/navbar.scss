@@ -3,7 +3,11 @@
     font-size: 14px;
 }
 .container{
+    height: 70px;
+    display: flex;
+    align-items: center;
     padding: 0px 50px;
+    justify-content: space-between;
     img{
         height: 25px;
     }
