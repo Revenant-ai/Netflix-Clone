@@ -1,7 +1,17 @@
 .navbar{
+    width: 100%;
     color: white;
     font-size: 14px;
+    position: fixed;
+    top: 0;
+    font-size: 14px;
+    background: linear-gradient(to top,transparent 0%, rgb(0,0,0,0.3) 40%);
+
+    &.scrolled{
+        background-color: black;
+    }
 }
+
 .container{
     height: 70px;
     display: flex;
