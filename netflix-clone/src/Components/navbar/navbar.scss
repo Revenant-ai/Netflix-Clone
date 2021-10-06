@@ -8,7 +8,51 @@
     align-items: center;
     padding: 0px 50px;
     justify-content: space-between;
-    img{
-        height: 25px;
+
+    .left{
+        display: flex;
+        align-items: center;
+        img{
+            height: 25px;
+            margin-right: 40px;
+        }
     }
+    span{
+        margin-right: 20px;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        img{
+            height: 30px;
+            width: 30px;
+            border-radius: 5px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        
+        .profile{
+            .options{
+                display: none;
+                background-color: black;
+                border-radius: 5px;
+            }
+            span{
+                cursor: pointer;
+                padding: 10px;
+            }
+            &:hover{
+                .options{
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                }
+            }
+        }
+    }
+    .icon{
+        margin: 0px 15px;
+        cursor: pointer;
+    }
+
 }
